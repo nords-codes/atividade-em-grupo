@@ -1,5 +1,5 @@
 #header{
-    background-color: black;
+    background-color: rgb(65, 68, 255);
     color: aliceblue;
     padding: 10px;
     display: flex;
@@ -8,41 +8,47 @@
 
 body{
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .block{
     display: block;
      color: white;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 .blu{
     justify-content: center;
-    background-color: rgb(255, 156, 176);
+    background-color: rgb(164, 173, 255);
     padding: 50;
     margin: 0px;
 }
 
 .cor{
-     color: white;
-    background-color:rgb(219, 0, 0);
+    color: white;
+    background-color:rgb(62, 65, 250);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .inline{
     display: inline;
     color: white;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .inline-block{
     display: inline-block;
     color: white;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .flex{
@@ -51,6 +57,7 @@ body{
     background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .inline-flex{

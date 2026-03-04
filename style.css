@@ -1,5 +1,9 @@
 #header{
-    background-color: blacks;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .block{

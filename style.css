@@ -53,6 +53,8 @@ body{
 
 .flex{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     color: white;
     background-color: rgb(219, 0, 0);
     padding: 50;

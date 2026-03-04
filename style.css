@@ -27,3 +27,59 @@
     padding: 50;
     margin: 20;
 }
+
+.grid{
+    display: grid;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.inlinegrid{
+    display: inline-grid;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.flowroot{
+    display: flow-root;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.table{
+    display: table;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.blockflow{
+    display: block flow;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.blockflex{
+    display: block flex;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.blockgrid{
+    display: block grid;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}
+
+.blockflowroot{
+    display: block flow-root;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}

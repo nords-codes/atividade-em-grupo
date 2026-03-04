@@ -25,6 +25,7 @@ body{
     background-color: rgb(164, 173, 255);
     padding: 50;
     margin: 0px;
+    border-radius: 10px;
 }
 
 .cor{
@@ -32,6 +33,7 @@ body{
     background-color:rgb(62, 65, 250);
     border-radius: 10px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .inline{
@@ -66,92 +68,105 @@ body{
 .inline-flex{
     display: inline-flex;
     color: white;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .grid{
     display: grid;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .inline-grid{
     display: inline-grid;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .flowroot{
     display: flow-root;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .table{
     display: table;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .blockflow{
     display: block flow;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .blockflex{
     display: block flex;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .blockgrid{
     display: block grid;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .blockflowroot{
     display: block flow-root;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 
 .inlineflow{
     display: inline flow;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .inlineflex{
     display: inline flex;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .inlinegrid{
     display: inline grid;
-    background-color: aqua;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
 
 .inlineflowroot{
     display: inline flow-root;
-    background-color: aqua;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }

@@ -17,3 +17,10 @@
 .cor{
     background-color: aqua;
 }
+
+.inline{
+    display: inline;
+    background-color: aqua;
+    padding: 50;
+    margin: 20;
+}

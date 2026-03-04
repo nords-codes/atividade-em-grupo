@@ -1,119 +1,127 @@
 #header{
-    background-color: black;
+    background-color: rgb(65, 68, 255);
     color: aliceblue;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .block{
     display: block;
      color: white;
-    background-color: black;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px;
 }
-
-body{
-    margin: 0;
-}
-
 .blu{
     justify-content: center;
-    background-color: crimson;
+    background-color: rgb(164, 173, 255);
     padding: 50;
-    margin: 0;
+    margin: 0px;
 }
 
 .cor{
-     color: white;
-    background-color: black;
+    color: white;
+    background-color:rgb(62, 65, 250);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .inline{
     display: inline;
     color: white;
-    background-color: black;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .inline-block{
     display: inline-block;
     color: white;
-    background-color: black;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .flex{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     color: white;
-    background-color: black;
+    background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
+    border-radius: 10px
 }
 
 .inline-flex{
     display: inline-flex;
     color: white;
-    background-color: black;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .grid{
     display: grid;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .inline-grid{
     display: inline-grid;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .flowroot{
     display: flow-root;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .table{
     display: table;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .blockflow{
     display: block flow;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .blockflex{
     display: block flex;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .blockgrid{
     display: block grid;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .blockflowroot{
     display: block flow-root;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
@@ -121,14 +129,14 @@ body{
 
 .inlineflow{
     display: inline flow;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }
 
 .inlineflex{
     display: inline flex;
-    background-color: aqua;
+    background-color: rgb(219, 0, 0);
     padding: 50;
     margin: 20;
 }

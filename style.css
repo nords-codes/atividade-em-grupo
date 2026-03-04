@@ -1,3 +1,11 @@
+#header{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .block{
     display: block;
      color: white;
@@ -51,64 +59,56 @@
 
 .grid{
     display: grid;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .inline-grid{
     display: inline-grid;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .flowroot{
     display: flow-root;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .table{
     display: table;
-   color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .blockflow{
     display: block flow;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .blockflex{
     display: block flex;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .blockgrid{
     display: block grid;
-   color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }
 
 .blockflowroot{
     display: block flow-root;
-    color: white;
-    background-color: black;
+    background-color: aqua;
     padding: 50;
     margin: 20;
 }

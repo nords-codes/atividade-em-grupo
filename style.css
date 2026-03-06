@@ -170,3 +170,43 @@ body{
     margin: 20;
     border-radius: 10px;
 }
+
+.static{
+    position: static;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.relative{
+    position: relative;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.sticky{
+    position: sticky;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}

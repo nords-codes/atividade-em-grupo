@@ -3,7 +3,7 @@
     color: aliceblue;
     padding: 10px;
     justify-content: center;
-    position: absolute;
+    
 }
 
 body {
@@ -219,7 +219,7 @@ body {
     z-index: 0px;
     background-color: rgb(62, 65, 250);
     border-radius: 10;
-    position: absolute;
+    
 }
 
 .sticky {

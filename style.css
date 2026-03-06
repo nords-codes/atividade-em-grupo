@@ -65,6 +65,13 @@ body{
     border-radius: 10px
 }
 
+.yo{
+    padding: 50;
+    margin: 20;
+    color: white;
+    background-color: rgb(62, 65, 250);
+}
+
 .inline-flex{
     display: inline-flex;
     color: white;
@@ -97,6 +104,12 @@ body{
     margin: 20;
     border-radius: 10px;
 }
+
+/* =========================================== 
+
+                 Artur Lopes
+
+   =========================================== */
 
 .table{
     display: table;
@@ -138,6 +151,11 @@ body{
     border-radius: 10px;
 }
 
+/* =========================================== 
+
+                 Artur Lopes
+
+   =========================================== */
 
 .inlineflow{
     display: inline flow;
@@ -165,6 +183,46 @@ body{
 
 .inlineflowroot{
     display: inline flow-root;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.static{
+    position: static;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.relative{
+    position: relative;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: rgb(62, 65, 250);
+    padding: 50;
+    margin: 20;
+    border-radius: 10px;
+}
+
+.sticky{
+    position: sticky;
     background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;

@@ -1,26 +1,27 @@
-#header{
+#header {
     background-color: rgb(65, 68, 255);
     color: aliceblue;
     padding: 10px;
-    display: flex;
     justify-content: center;
+    position: absolute;
 }
 
-body{
+body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
 }
 
-.block{
+.block {
     display: block;
-     color: white;
+    color: white;
     background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
     border-radius: 10px;
 }
-.blu{
+
+.blu {
     justify-content: center;
     background-color: rgb(164, 173, 255);
     padding: 50;
@@ -28,15 +29,15 @@ body{
     border-radius: 10px;
 }
 
-.cor{
+.cor {
     color: white;
-    background-color:rgb(62, 65, 250);
+    background-color: rgb(62, 65, 250);
     border-radius: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
-.inline{
+.inline {
     display: inline;
     color: white;
     background-color: rgb(62, 65, 250);
@@ -45,7 +46,7 @@ body{
     border-radius: 10px
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
     color: white;
     background-color: rgb(62, 65, 250);
@@ -54,7 +55,7 @@ body{
     border-radius: 10px
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -65,14 +66,14 @@ body{
     border-radius: 10px
 }
 
-.yo{
+.yo {
     padding: 50;
     margin: 20;
     color: white;
     background-color: rgb(117, 161, 255);
 }
 
-.inline-flex{
+.inline-flex {
     display: inline-flex;
     color: white;
     background-color: rgb(62, 65, 250);
@@ -81,7 +82,7 @@ body{
     border-radius: 10px;
 }
 
-.grid{
+.grid {
     display: grid;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -89,7 +90,7 @@ body{
     border-radius: 10px;
 }
 
-.inline-grid{
+.inline-grid {
     display: inline-grid;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -97,7 +98,7 @@ body{
     border-radius: 10px;
 }
 
-.flowroot{
+.flowroot {
     display: flow-root;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -111,7 +112,7 @@ body{
 
    =========================================== */
 
-.table{
+.table {
     display: table;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -119,7 +120,7 @@ body{
     border-radius: 10px;
 }
 
-.blockflow{
+.blockflow {
     display: block flow;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -127,7 +128,7 @@ body{
     border-radius: 10px;
 }
 
-.blockflex{
+.blockflex {
     display: block flex;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -135,7 +136,7 @@ body{
     border-radius: 10px;
 }
 
-.blockgrid{
+.blockgrid {
     display: block grid;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -143,7 +144,7 @@ body{
     border-radius: 10px;
 }
 
-.blockflowroot{
+.blockflowroot {
     display: block flow-root;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -157,7 +158,7 @@ body{
 
    =========================================== */
 
-.inlineflow{
+.inlineflow {
     display: inline flow;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -165,7 +166,7 @@ body{
     border-radius: 10px;
 }
 
-.inlineflex{
+.inlineflex {
     display: inline flex;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -173,7 +174,7 @@ body{
     border-radius: 10px;
 }
 
-.inlinegrid{
+.inlinegrid {
     display: inline grid;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -181,7 +182,7 @@ body{
     border-radius: 10px;
 }
 
-.inlineflowroot{
+.inlineflowroot {
     display: inline flow-root;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -189,7 +190,7 @@ body{
     border-radius: 10px;
 }
 
-.static{
+.static {
     position: static;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -197,7 +198,7 @@ body{
     border-radius: 10px;
 }
 
-.relative{
+.relative {
     position: relative;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -205,7 +206,7 @@ body{
     border-radius: 10px;
 }
 
-.absolute{
+.absolute {
     position: absolute;
     background-color: rgb(62, 65, 250);
     padding: 50;
@@ -213,16 +214,24 @@ body{
     border-radius: 10px;
 }
 
-.fixed{
+.fixed {
     position: fixed;
+    z-index: 0px;
+    background-color: rgb(62, 65, 250);
+    border-radius: 10;
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+    display: flex;
     background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;
     border-radius: 10px;
 }
 
-.sticky{
-    position: sticky;
+.explicacao {
     background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;

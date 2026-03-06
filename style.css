@@ -63,6 +63,13 @@ body{
     border-radius: 10px
 }
 
+.yo{
+    padding: 50;
+    margin: 20;
+    color: white;
+    background-color: rgb(62, 65, 250);
+}
+
 .inline-flex{
     display: inline-flex;
     color: white;
@@ -91,6 +98,12 @@ body{
     padding: 50;
     margin: 20;
 }
+
+/* =========================================== 
+
+                 Artur Lopes
+
+   =========================================== */
 
 .table{
     display: table;
@@ -127,6 +140,11 @@ body{
     margin: 20;
 }
 
+/* =========================================== 
+
+                 Artur Lopes
+
+   =========================================== */
 
 .inlineflow{
     display: inline flow;

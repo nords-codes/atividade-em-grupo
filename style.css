@@ -216,7 +216,7 @@ body {
 
 .sticky {
     position: sticky;
-    display: flex;
+    
     background-color: rgb(62, 65, 250);
     padding: 50;
     margin: 20;

@@ -153,6 +153,7 @@ body {
     padding: 50;
     margin: 20;
     border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .blockflowroot {

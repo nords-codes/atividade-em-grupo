@@ -139,8 +139,8 @@ body {
 .blockgrid {
     display: block grid;
     background-color: rgb(62, 65, 250);
-    padding: 50;
-    margin: 20;
+    padding: 50px;
+    margin: 20px;
     border-radius: 10px;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -148,8 +148,8 @@ body {
 .blockflowroot {
     display: block flow-root;
     background-color: rgb(62, 65, 250);
-    padding: 50;
-    margin: 20;
+    padding: 50px;
+    margin: 20px;
     border-radius: 10px;
 }
 

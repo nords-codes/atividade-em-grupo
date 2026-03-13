@@ -171,11 +171,15 @@ body {
    =========================================== */
 
 .inlineflow {
-    display: inline flow;
+    display: inline-block;
     background-color: rgb(62, 65, 250);
-    padding: 50px;
-    margin: 20px;
+    color: white;
+    padding: 30px;
+    margin: 10px;
     border-radius: 10px;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 .static {
